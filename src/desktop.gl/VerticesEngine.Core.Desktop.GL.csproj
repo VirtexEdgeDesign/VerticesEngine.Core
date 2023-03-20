@@ -19,6 +19,7 @@
   <RepositoryUrl>https://github.com/VirtexEdgeDesign/VerticesEngine.Core</RepositoryUrl>
   <PackageProjectUrl>https://github.com/VirtexEdgeDesign/VerticesEngine.Core</PackageProjectUrl>
   <PackageTags>MonoGame, Game Engine</PackageTags>
+  <PackageReadmeFile>../../README.md</PackageReadmeFile>
 </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>VRTC_PLTFRM_GL</DefineConstants>
