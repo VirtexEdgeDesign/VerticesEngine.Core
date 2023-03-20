@@ -1,0 +1,237 @@
+var namespace_vertices_engine =
+[
+    [ "Audio", "namespace_vertices_engine_1_1_audio.html", "namespace_vertices_engine_1_1_audio" ],
+    [ "Commands", "namespace_vertices_engine_1_1_commands.html", "namespace_vertices_engine_1_1_commands" ],
+    [ "ContentManagement", "namespace_vertices_engine_1_1_content_management.html", "namespace_vertices_engine_1_1_content_management" ],
+    [ "Controllers", "namespace_vertices_engine_1_1_controllers.html", "namespace_vertices_engine_1_1_controllers" ],
+    [ "Core", "namespace_vertices_engine_1_1_core.html", "namespace_vertices_engine_1_1_core" ],
+    [ "DebugUtilities", "namespace_vertices_engine_1_1_debug_utilities.html", "namespace_vertices_engine_1_1_debug_utilities" ],
+    [ "Diagnostics", "namespace_vertices_engine_1_1_diagnostics.html", "namespace_vertices_engine_1_1_diagnostics" ],
+    [ "Droid", "namespace_vertices_engine_1_1_droid.html", "namespace_vertices_engine_1_1_droid" ],
+    [ "DX", "namespace_vertices_engine_1_1_d_x.html", "namespace_vertices_engine_1_1_d_x" ],
+    [ "Editor", "namespace_vertices_engine_1_1_editor.html", "namespace_vertices_engine_1_1_editor" ],
+    [ "Entities", "namespace_vertices_engine_1_1_entities.html", "namespace_vertices_engine_1_1_entities" ],
+    [ "EnvTerrain", "namespace_vertices_engine_1_1_env_terrain.html", "namespace_vertices_engine_1_1_env_terrain" ],
+    [ "Graphics", "namespace_vertices_engine_1_1_graphics.html", "namespace_vertices_engine_1_1_graphics" ],
+    [ "InitSteps", "namespace_vertices_engine_1_1_init_steps.html", "namespace_vertices_engine_1_1_init_steps" ],
+    [ "Input", "namespace_vertices_engine_1_1_input.html", "namespace_vertices_engine_1_1_input" ],
+    [ "Lib", "namespace_vertices_engine_1_1_lib.html", "namespace_vertices_engine_1_1_lib" ],
+    [ "Localization", "namespace_vertices_engine_1_1_localization.html", "namespace_vertices_engine_1_1_localization" ],
+    [ "Mathematics", "namespace_vertices_engine_1_1_mathematics.html", "namespace_vertices_engine_1_1_mathematics" ],
+    [ "Monetization", "namespace_vertices_engine_1_1_monetization.html", "namespace_vertices_engine_1_1_monetization" ],
+    [ "Net", "namespace_vertices_engine_1_1_net.html", "namespace_vertices_engine_1_1_net" ],
+    [ "Particles", "namespace_vertices_engine_1_1_particles.html", "namespace_vertices_engine_1_1_particles" ],
+    [ "Physics", "namespace_vertices_engine_1_1_physics.html", "namespace_vertices_engine_1_1_physics" ],
+    [ "Plugins", "namespace_vertices_engine_1_1_plugins.html", "namespace_vertices_engine_1_1_plugins" ],
+    [ "Profile", "namespace_vertices_engine_1_1_profile.html", "namespace_vertices_engine_1_1_profile" ],
+    [ "Screens", "namespace_vertices_engine_1_1_screens.html", "namespace_vertices_engine_1_1_screens" ],
+    [ "Serilization", "namespace_vertices_engine_1_1_serilization.html", "namespace_vertices_engine_1_1_serilization" ],
+    [ "Settings", "namespace_vertices_engine_1_1_settings.html", "namespace_vertices_engine_1_1_settings" ],
+    [ "UI", "namespace_vertices_engine_1_1_u_i.html", "namespace_vertices_engine_1_1_u_i" ],
+    [ "Util", "namespace_vertices_engine_1_1_util.html", "namespace_vertices_engine_1_1_util" ],
+    [ "Utilities", "namespace_vertices_engine_1_1_utilities.html", "namespace_vertices_engine_1_1_utilities" ],
+    [ "Workshop", "namespace_vertices_engine_1_1_workshop.html", "namespace_vertices_engine_1_1_workshop" ],
+    [ "ImportedFileInfo", "struct_vertices_engine_1_1_imported_file_info.html", null ],
+    [ "RenderPassTransformData", "class_vertices_engine_1_1_render_pass_transform_data.html", null ],
+    [ "vxAudioSettingsAttribute", "class_vertices_engine_1_1vx_audio_settings_attribute.html", "class_vertices_engine_1_1vx_audio_settings_attribute" ],
+    [ "vxBaseScene", "class_vertices_engine_1_1vx_base_scene.html", "class_vertices_engine_1_1vx_base_scene" ],
+    [ "vxCamera", "class_vertices_engine_1_1vx_camera.html", "class_vertices_engine_1_1vx_camera" ],
+    [ "vxCamera2D", "class_vertices_engine_1_1vx_camera2_d.html", "class_vertices_engine_1_1vx_camera2_d" ],
+    [ "vxCamera3D", "class_vertices_engine_1_1vx_camera3_d.html", "class_vertices_engine_1_1vx_camera3_d" ],
+    [ "vxCameraChaseController", "class_vertices_engine_1_1vx_camera_chase_controller.html", "class_vertices_engine_1_1vx_camera_chase_controller" ],
+    [ "vxCameraFpsController", "class_vertices_engine_1_1vx_camera_fps_controller.html", "class_vertices_engine_1_1vx_camera_fps_controller" ],
+    [ "vxCameraFreeRoamController", "class_vertices_engine_1_1vx_camera_free_roam_controller.html", "class_vertices_engine_1_1vx_camera_free_roam_controller" ],
+    [ "vxCameraManager", "class_vertices_engine_1_1vx_camera_manager.html", "class_vertices_engine_1_1vx_camera_manager" ],
+    [ "vxCameraOrbitController", "class_vertices_engine_1_1vx_camera_orbit_controller.html", "class_vertices_engine_1_1vx_camera_orbit_controller" ],
+    [ "vxCameraSceneEditorController", "class_vertices_engine_1_1vx_camera_scene_editor_controller.html", "class_vertices_engine_1_1vx_camera_scene_editor_controller" ],
+    [ "vxComponent", "class_vertices_engine_1_1vx_component.html", "class_vertices_engine_1_1vx_component" ],
+    [ "vxConsole", "class_vertices_engine_1_1vx_console.html", "class_vertices_engine_1_1vx_console" ],
+    [ "vxCoroutine", "class_vertices_engine_1_1vx_coroutine.html", null ],
+    [ "vxCoroutineManager", "class_vertices_engine_1_1vx_coroutine_manager.html", "class_vertices_engine_1_1vx_coroutine_manager" ],
+    [ "vxDebug", "class_vertices_engine_1_1vx_debug.html", "class_vertices_engine_1_1vx_debug" ],
+    [ "vxDistortionEntity2D", "class_vertices_engine_1_1vx_distortion_entity2_d.html", "class_vertices_engine_1_1vx_distortion_entity2_d" ],
+    [ "vxEngine", "class_vertices_engine_1_1vx_engine.html", "class_vertices_engine_1_1vx_engine" ],
+    [ "vxEngineAttribute", "class_vertices_engine_1_1vx_engine_attribute.html", null ],
+    [ "vxEngineSettingsAttribute", "class_vertices_engine_1_1vx_engine_settings_attribute.html", "class_vertices_engine_1_1vx_engine_settings_attribute" ],
+    [ "vxEntity", "class_vertices_engine_1_1vx_entity.html", "class_vertices_engine_1_1vx_entity" ],
+    [ "vxEntity2D", "class_vertices_engine_1_1vx_entity2_d.html", "class_vertices_engine_1_1vx_entity2_d" ],
+    [ "vxEntity3D", "class_vertices_engine_1_1vx_entity3_d.html", "class_vertices_engine_1_1vx_entity3_d" ],
+    [ "vxEntityCreationProcedure", "class_vertices_engine_1_1vx_entity_creation_procedure.html", null ],
+    [ "vxEntityRegister", "class_vertices_engine_1_1vx_entity_register.html", "class_vertices_engine_1_1vx_entity_register" ],
+    [ "vxEntitySpriteSheetDefinition", "class_vertices_engine_1_1vx_entity_sprite_sheet_definition.html", null ],
+    [ "vxExtentions", "class_vertices_engine_1_1vx_extentions.html", "class_vertices_engine_1_1vx_extentions" ],
+    [ "vxGame", "class_vertices_engine_1_1vx_game.html", "class_vertices_engine_1_1vx_game" ],
+    [ "vxGameAttributeException", "class_vertices_engine_1_1vx_game_attribute_exception.html", "class_vertices_engine_1_1vx_game_attribute_exception" ],
+    [ "vxGameConfig", "class_vertices_engine_1_1vx_game_config.html", null ],
+    [ "vxGameConfigurationsAttribute", "class_vertices_engine_1_1vx_game_configurations_attribute.html", "class_vertices_engine_1_1vx_game_configurations_attribute" ],
+    [ "vxGameObject", "class_vertices_engine_1_1vx_game_object.html", "class_vertices_engine_1_1vx_game_object" ],
+    [ "vxGameplayScene2D", "class_vertices_engine_1_1vx_gameplay_scene2_d.html", "class_vertices_engine_1_1vx_gameplay_scene2_d" ],
+    [ "vxGameplayScene3D", "class_vertices_engine_1_1vx_gameplay_scene3_d.html", "class_vertices_engine_1_1vx_gameplay_scene3_d" ],
+    [ "vxGameplaySceneBase", "class_vertices_engine_1_1vx_gameplay_scene_base.html", "class_vertices_engine_1_1vx_gameplay_scene_base" ],
+    [ "vxGameSettingsAttribute", "class_vertices_engine_1_1vx_game_settings_attribute.html", "class_vertices_engine_1_1vx_game_settings_attribute" ],
+    [ "vxGraphicalSettingsAttribute", "class_vertices_engine_1_1vx_graphical_settings_attribute.html", "class_vertices_engine_1_1vx_graphical_settings_attribute" ],
+    [ "vxIEngineSubSystem", "interface_vertices_engine_1_1vx_i_engine_sub_system.html", null ],
+    [ "vxIInitializationStep", "interface_vertices_engine_1_1vx_i_initialization_step.html", null ],
+    [ "vxInputSettingsAttribute", "class_vertices_engine_1_1vx_input_settings_attribute.html", "class_vertices_engine_1_1vx_input_settings_attribute" ],
+    [ "vxInternalAssets", "class_vertices_engine_1_1vx_internal_assets.html", "class_vertices_engine_1_1vx_internal_assets" ],
+    [ "vxISceneSubSystem", "interface_vertices_engine_1_1vx_i_scene_sub_system.html", null ],
+    [ "vxISelectable", "interface_vertices_engine_1_1vx_i_selectable.html", null ],
+    [ "vxISubSystem", "interface_vertices_engine_1_1vx_i_sub_system.html", "interface_vertices_engine_1_1vx_i_sub_system" ],
+    [ "vxItemList", "class_vertices_engine_1_1vx_item_list.html", "class_vertices_engine_1_1vx_item_list" ],
+    [ "vxLocalizer", "class_vertices_engine_1_1vx_localizer.html", "class_vertices_engine_1_1vx_localizer" ],
+    [ "vxLocKeys", "class_vertices_engine_1_1vx_loc_keys.html", null ],
+    [ "vxMathHelper", "class_vertices_engine_1_1vx_math_helper.html", "class_vertices_engine_1_1vx_math_helper" ],
+    [ "vxRandom", "class_vertices_engine_1_1vx_random.html", "class_vertices_engine_1_1vx_random" ],
+    [ "vxRangeAttribute", "class_vertices_engine_1_1vx_range_attribute.html", "class_vertices_engine_1_1vx_range_attribute" ],
+    [ "vxRegisterAsSandboxEntityAttribute", "class_vertices_engine_1_1vx_register_as_sandbox_entity_attribute.html", "class_vertices_engine_1_1vx_register_as_sandbox_entity_attribute" ],
+    [ "vxSandboxEntityCategory", "class_vertices_engine_1_1vx_sandbox_entity_category.html", null ],
+    [ "vxSandboxEntityMetaAttribute", "class_vertices_engine_1_1vx_sandbox_entity_meta_attribute.html", null ],
+    [ "vxSandboxEntityRegistrationInfo", "class_vertices_engine_1_1vx_sandbox_entity_registration_info.html", "class_vertices_engine_1_1vx_sandbox_entity_registration_info" ],
+    [ "vxSandboxEntitySubCategory", "class_vertices_engine_1_1vx_sandbox_entity_sub_category.html", "class_vertices_engine_1_1vx_sandbox_entity_sub_category" ],
+    [ "vxSandboxFileLoadResult", "class_vertices_engine_1_1vx_sandbox_file_load_result.html", null ],
+    [ "vxSandboxItemSelectedEventArgs", "class_vertices_engine_1_1vx_sandbox_item_selected_event_args.html", "class_vertices_engine_1_1vx_sandbox_item_selected_event_args" ],
+    [ "vxSandboxItemSelectedForInspectorEventArgs", "class_vertices_engine_1_1vx_sandbox_item_selected_for_inspector_event_args.html", "class_vertices_engine_1_1vx_sandbox_item_selected_for_inspector_event_args" ],
+    [ "vxSaveBusyScreen", "class_vertices_engine_1_1vx_save_busy_screen.html", "class_vertices_engine_1_1vx_save_busy_screen" ],
+    [ "vxSaveBusyScreen2D", "class_vertices_engine_1_1vx_save_busy_screen2_d.html", "class_vertices_engine_1_1vx_save_busy_screen2_d" ],
+    [ "vxSaveBusyScreen3D", "class_vertices_engine_1_1vx_save_busy_screen3_d.html", "class_vertices_engine_1_1vx_save_busy_screen3_d" ],
+    [ "vxSceneManager", "class_vertices_engine_1_1vx_scene_manager.html", "class_vertices_engine_1_1vx_scene_manager" ],
+    [ "vxSceneProperties", "class_vertices_engine_1_1vx_scene_properties.html", null ],
+    [ "vxScreen", "class_vertices_engine_1_1vx_screen.html", "class_vertices_engine_1_1vx_screen" ],
+    [ "vxSerialiseAttribute", "class_vertices_engine_1_1vx_serialise_attribute.html", null ],
+    [ "vxSettings", "class_vertices_engine_1_1vx_settings.html", null ],
+    [ "vxSettingsAttribute", "class_vertices_engine_1_1vx_settings_attribute.html", "class_vertices_engine_1_1vx_settings_attribute" ],
+    [ "vxShowInInspectorAttribute", "class_vertices_engine_1_1vx_show_in_inspector_attribute.html", "class_vertices_engine_1_1vx_show_in_inspector_attribute" ],
+    [ "vxTime", "class_vertices_engine_1_1vx_time.html", "class_vertices_engine_1_1vx_time" ],
+    [ "vxTransform", "class_vertices_engine_1_1vx_transform.html", "class_vertices_engine_1_1vx_transform" ],
+    [ "vxUtilCamera3D", "class_vertices_engine_1_1vx_util_camera3_d.html", "class_vertices_engine_1_1vx_util_camera3_d" ],
+    [ "vxUtilCameraEntity", "class_vertices_engine_1_1vx_util_camera_entity.html", "class_vertices_engine_1_1vx_util_camera_entity" ],
+    [ "vxWaitForSeconds", "class_vertices_engine_1_1vx_wait_for_seconds.html", null ],
+    [ "vxWaterEntity", "class_vertices_engine_1_1vx_water_entity.html", "class_vertices_engine_1_1vx_water_entity" ],
+    [ "EntityAssetType", "namespace_vertices_engine.html#ab009c7e1ae3aa3fc55f44e3399ad6890", [
+      [ "Model", "namespace_vertices_engine.html#ab009c7e1ae3aa3fc55f44e3399ad6890aa559b87068921eec05086ce5485e9784", null ],
+      [ "Texture", "namespace_vertices_engine.html#ab009c7e1ae3aa3fc55f44e3399ad6890aa3e8ae43188ae76d38f414b2bdb0077b", null ],
+      [ "SpriteSheet", "namespace_vertices_engine.html#ab009c7e1ae3aa3fc55f44e3399ad6890a47945664520c45ad70e9c4b667ea1915", null ]
+    ] ],
+    [ "GameInitializationStage", "namespace_vertices_engine.html#ae0a3cea160bd4cf91e01fbd2007944fd", [
+      [ "Waiting", "namespace_vertices_engine.html#ae0a3cea160bd4cf91e01fbd2007944fda5706de961fb376d701be6e7762d8b09c", null ],
+      [ "PrimaryStartup", "namespace_vertices_engine.html#ae0a3cea160bd4cf91e01fbd2007944fdaed94b4de5ed5b11e2deff140dee0d0e1", null ],
+      [ "TitlePage", "namespace_vertices_engine.html#ae0a3cea160bd4cf91e01fbd2007944fdaaf6d9c53f86891209f152fe167c9246b", null ],
+      [ "NotifyOfPermissions", "namespace_vertices_engine.html#ae0a3cea160bd4cf91e01fbd2007944fda4d02670b78aa26705e950bf0789a94d2", null ],
+      [ "SigningInUser", "namespace_vertices_engine.html#ae0a3cea160bd4cf91e01fbd2007944fdaa29114e22b2a56293a3c3c366e48e5c5", null ],
+      [ "LoadingGlobalContent", "namespace_vertices_engine.html#ae0a3cea160bd4cf91e01fbd2007944fda96e9f3208b7c5f13edd399972dfd0991", null ],
+      [ "CheckIfUpdated", "namespace_vertices_engine.html#ae0a3cea160bd4cf91e01fbd2007944fdae794ab1d7c9dbce70c12b8386c49b13b", null ],
+      [ "GameSpecificChecks", "namespace_vertices_engine.html#ae0a3cea160bd4cf91e01fbd2007944fda3d0b326e2fcbdf51bc43d322ad835432", null ],
+      [ "ReadyToRun", "namespace_vertices_engine.html#ae0a3cea160bd4cf91e01fbd2007944fda506db5c85cf0fd10f93e5478013650b6", null ],
+      [ "Running", "namespace_vertices_engine.html#ae0a3cea160bd4cf91e01fbd2007944fda5bda814c4aedb126839228f1a3d92f09", null ]
+    ] ],
+    [ "MouseClickState", "namespace_vertices_engine.html#ab227b13af9af109ec047227798cf184e", [
+      [ "SelectItem", "namespace_vertices_engine.html#ab227b13af9af109ec047227798cf184ea3284a47a11245343130eb07528e8542f", null ],
+      [ "ReturnItemToInspector", "namespace_vertices_engine.html#ab227b13af9af109ec047227798cf184ea5aea2764f2460c9f5d3c1b509eee0912", null ]
+    ] ],
+    [ "SandboxOptions", "namespace_vertices_engine.html#a5147331901a8631ada045aa36053ea50", [
+      [ "Delete", "namespace_vertices_engine.html#a5147331901a8631ada045aa36053ea50af2a6c498fb90ee345d997f888fce3b18", null ],
+      [ "Save", "namespace_vertices_engine.html#a5147331901a8631ada045aa36053ea50ac9cc8cce247e49bae79f15173ce97354", null ],
+      [ "Export", "namespace_vertices_engine.html#a5147331901a8631ada045aa36053ea50a0095a9fa74d1713e43e370a7d7846224", null ]
+    ] ],
+    [ "ScreenState", "namespace_vertices_engine.html#ac75b81e9501d1386df4dbb9c80117465", [
+      [ "TransitionOn", "namespace_vertices_engine.html#ac75b81e9501d1386df4dbb9c80117465ada75f3f095c9aef3184de03832b831c8", null ],
+      [ "Active", "namespace_vertices_engine.html#ac75b81e9501d1386df4dbb9c80117465a4d3d769b812b6faa6b76e1a8abaece2d", null ],
+      [ "TransitionOff", "namespace_vertices_engine.html#ac75b81e9501d1386df4dbb9c80117465ad5585781c02f0dff7531081980ecbfce", null ],
+      [ "Hidden", "namespace_vertices_engine.html#ac75b81e9501d1386df4dbb9c80117465a7acdf85c69cc3c5305456a293524386e", null ]
+    ] ],
+    [ "SubSystemType", "namespace_vertices_engine.html#abdc2625ae7223847105cc1e5cbf268d1", [
+      [ "Engine", "namespace_vertices_engine.html#abdc2625ae7223847105cc1e5cbf268d1a7bfa30721c5e726ff17e3f972237a82c", null ],
+      [ "Scene", "namespace_vertices_engine.html#abdc2625ae7223847105cc1e5cbf268d1a9ead0d38e06ec253ca0ecbf6ea56e59b", null ]
+    ] ],
+    [ "TimeOfDay", "namespace_vertices_engine.html#a986299f1d99c7650509ffe192b53a128", [
+      [ "Morning", "namespace_vertices_engine.html#a986299f1d99c7650509ffe192b53a128ab311a3fe13ac9b0ee02985f4759a2e46", null ],
+      [ "Day", "namespace_vertices_engine.html#a986299f1d99c7650509ffe192b53a128a03727ac48595a24daed975559c944a44", null ],
+      [ "Evening", "namespace_vertices_engine.html#a986299f1d99c7650509ffe192b53a128a0b8bd8e7a923442b0de1b614af46944f", null ],
+      [ "Night", "namespace_vertices_engine.html#a986299f1d99c7650509ffe192b53a128a0edc9b073397681dc9f2c479686ea0d9", null ]
+    ] ],
+    [ "vxBuildType", "namespace_vertices_engine.html#a12e1b3c14b10d372f5bff2edb6ae7f5c", [
+      [ "Debug", "namespace_vertices_engine.html#a12e1b3c14b10d372f5bff2edb6ae7f5caa603905470e2a5b8c13e96b579ef0dba", null ],
+      [ "Release", "namespace_vertices_engine.html#a12e1b3c14b10d372f5bff2edb6ae7f5cab8e7b465df7c5979dc731d06e84ce2cf", null ]
+    ] ],
+    [ "vxCameraType", "namespace_vertices_engine.html#a9fba9231e72aac7202c0e51d1ebdd881", [
+      [ "Freeroam", "namespace_vertices_engine.html#a9fba9231e72aac7202c0e51d1ebdd881a719dc31b8b0d94cb90bec4d0df8564fa", null ],
+      [ "CharacterFPS", "namespace_vertices_engine.html#a9fba9231e72aac7202c0e51d1ebdd881ae481d73514b79fe694adb202b51d9c23", null ],
+      [ "ChaseCamera", "namespace_vertices_engine.html#a9fba9231e72aac7202c0e51d1ebdd881aff98c0ad3071d532a1e4178279678376", null ],
+      [ "Orbit", "namespace_vertices_engine.html#a9fba9231e72aac7202c0e51d1ebdd881a76e1ab7a1df8e64fe867b420645c8a68", null ],
+      [ "OnRails", "namespace_vertices_engine.html#a9fba9231e72aac7202c0e51d1ebdd881a92e1ad87aaf31ea5c2811aa46232912d", null ],
+      [ "SceneEditor", "namespace_vertices_engine.html#a9fba9231e72aac7202c0e51d1ebdd881ac55c39d63de0cd9604f35710f876fa97", null ],
+      [ "External", "namespace_vertices_engine.html#a9fba9231e72aac7202c0e51d1ebdd881ab206a1b4ea1097761f78e8876f6da779", null ]
+    ] ],
+    [ "vxEditorCameraMode", "namespace_vertices_engine.html#ad91edd05138c3cabd6616c68ca7e31bd", [
+      [ "Editor", "namespace_vertices_engine.html#ad91edd05138c3cabd6616c68ca7e31bda344a7f427fb765610ef96eb7bce95257", null ],
+      [ "Fly", "namespace_vertices_engine.html#ad91edd05138c3cabd6616c68ca7e31bdaac51deb7d2c3f9663a6df72c7c9b2b51", null ],
+      [ "Orbit", "namespace_vertices_engine.html#ad91edd05138c3cabd6616c68ca7e31bda76e1ab7a1df8e64fe867b420645c8a68", null ]
+    ] ],
+    [ "vxEnumAreaOfEffectMode", "namespace_vertices_engine.html#acc60ae2794c5dd9ba93e415698d1d22d", [
+      [ "Delta", "namespace_vertices_engine.html#acc60ae2794c5dd9ba93e415698d1d22dadb1f4ab5845def61a83d5df13e0c2397", null ],
+      [ "Averaged", "namespace_vertices_engine.html#acc60ae2794c5dd9ba93e415698d1d22da949802dacddee931002d0e96e6b39ddd", null ]
+    ] ],
+    [ "vxEnumFalloffRate", "namespace_vertices_engine.html#ad865f967cbfda334534ce707fee92df0", [
+      [ "Linear", "namespace_vertices_engine.html#ad865f967cbfda334534ce707fee92df0a32a843da6ea40ab3b17a3421ccdf671b", null ],
+      [ "Flat", "namespace_vertices_engine.html#ad865f967cbfda334534ce707fee92df0a745e3db6a7ffd50e1a72b39482f0882d", null ],
+      [ "Smooth", "namespace_vertices_engine.html#ad865f967cbfda334534ce707fee92df0ae510cdf33cd497134b47b9316314d4b4", null ]
+    ] ],
+    [ "vxEnumSanboxEditMode", "namespace_vertices_engine.html#ab057b649016aa6dba9c63fcbd7b31547", [
+      [ "AddItem", "namespace_vertices_engine.html#ab057b649016aa6dba9c63fcbd7b31547a55c0010271ffa56800e55196d9acd283", null ],
+      [ "SelectItem", "namespace_vertices_engine.html#ab057b649016aa6dba9c63fcbd7b31547a3284a47a11245343130eb07528e8542f", null ],
+      [ "TerrainEdit", "namespace_vertices_engine.html#ab057b649016aa6dba9c63fcbd7b31547a797cd7b94bf89d1aec54b7a6691561ad", null ]
+    ] ],
+    [ "vxEnumSandboxStatus", "namespace_vertices_engine.html#ad8a119d3f9ee8e05e2a34a11c3eff957", [
+      [ "EditMode", "namespace_vertices_engine.html#ad8a119d3f9ee8e05e2a34a11c3eff957a892169d13e2cfd4638bf38dd53dd0178", null ],
+      [ "Running", "namespace_vertices_engine.html#ad8a119d3f9ee8e05e2a34a11c3eff957a5bda814c4aedb126839228f1a3d92f09", null ]
+    ] ],
+    [ "vxEnumTerrainEditMode", "namespace_vertices_engine.html#aa28d55e5f6534fff3d6dfb566479e698", [
+      [ "Disabled", "namespace_vertices_engine.html#aa28d55e5f6534fff3d6dfb566479e698ab9f5c797ebbf55adccdd8539a65a0241", null ],
+      [ "Sculpt", "namespace_vertices_engine.html#aa28d55e5f6534fff3d6dfb566479e698a6bd40ce7c6bb3923c99dae08d83d96b3", null ],
+      [ "TexturePaint", "namespace_vertices_engine.html#aa28d55e5f6534fff3d6dfb566479e698acea9bed3fbd7787811fc2031ed4a1c84", null ]
+    ] ],
+    [ "vxGameConfigFlags", "namespace_vertices_engine.html#a42713491baf171e5de4c04e307cf3dea", [
+      [ "ControlsSettings", "namespace_vertices_engine.html#a42713491baf171e5de4c04e307cf3deaa559f6fb54d887e2a58b5a0bf49bb3820", null ],
+      [ "GraphicsSettings", "namespace_vertices_engine.html#a42713491baf171e5de4c04e307cf3deaaa74242e5f13b3da7af1893f74deb2d3f", null ],
+      [ "AudioSettings", "namespace_vertices_engine.html#a42713491baf171e5de4c04e307cf3deaa4954bc21c5a4abf0bbb37cc4e32186d7", null ],
+      [ "LanguageSettings", "namespace_vertices_engine.html#a42713491baf171e5de4c04e307cf3deaade389f21ce1af2e4d983999416a97bc2", null ],
+      [ "NetworkEnabled", "namespace_vertices_engine.html#a42713491baf171e5de4c04e307cf3deaa2c0a4f87df77e5ec14a4530a9c1e7c00", null ],
+      [ "IsCursorVisible", "namespace_vertices_engine.html#a42713491baf171e5de4c04e307cf3deaa20d96aaaa8c248ba94069853343e9707", null ],
+      [ "PlayerProfileSupport", "namespace_vertices_engine.html#a42713491baf171e5de4c04e307cf3deaa6ae254faf009f75933f94ae1c4b354f2", null ],
+      [ "LeaderboardsSupport", "namespace_vertices_engine.html#a42713491baf171e5de4c04e307cf3deaa770519c5a780c89b34f2c03651b783f3", null ],
+      [ "AchievementsSupport", "namespace_vertices_engine.html#a42713491baf171e5de4c04e307cf3deaad7c3ad0374ed16dee3dfdaeb7d9d918d", null ],
+      [ "InAppPurchases", "namespace_vertices_engine.html#a42713491baf171e5de4c04e307cf3deaacb5064e1125c8a12d374ec7732b783fa", null ]
+    ] ],
+    [ "vxInspectorCategory", "namespace_vertices_engine.html#a626755a1186c1371f29793998ae02477", [
+      [ "BasicProperties", "namespace_vertices_engine.html#a626755a1186c1371f29793998ae02477a8be26a82876cd6939ffbf181718a73f7", null ],
+      [ "EntityProperties", "namespace_vertices_engine.html#a626755a1186c1371f29793998ae02477a501891a999669f38218b8034c1d2f3e6", null ],
+      [ "EntityTransformProperties", "namespace_vertices_engine.html#a626755a1186c1371f29793998ae02477a9216590fc98c33a15bc64859c36a3f4e", null ],
+      [ "ModelProperties", "namespace_vertices_engine.html#a626755a1186c1371f29793998ae02477aa810fd1d1c59c93468d1edcf3d43d703", null ],
+      [ "GraphicalProperies", "namespace_vertices_engine.html#a626755a1186c1371f29793998ae02477aecf440bb89c4936bec5907c843feb78d", null ]
+    ] ],
+    [ "vxPlatformHardwareType", "namespace_vertices_engine.html#a0992337acadd2977fbd26ce43ed37b92", [
+      [ "Desktop", "namespace_vertices_engine.html#a0992337acadd2977fbd26ce43ed37b92a2310408a63388fe57e3a4177168a8798", null ],
+      [ "Console", "namespace_vertices_engine.html#a0992337acadd2977fbd26ce43ed37b92abccaa4aa80831b76c11240a16447975f", null ],
+      [ "Mobile", "namespace_vertices_engine.html#a0992337acadd2977fbd26ce43ed37b92a87d17f4624a514e81dc7c8e016a7405c", null ],
+      [ "Web", "namespace_vertices_engine.html#a0992337acadd2977fbd26ce43ed37b92ac6e190b284633c48e39e55049da3cce8", null ]
+    ] ],
+    [ "vxPlatformType", "namespace_vertices_engine.html#ae6fb387a1748a2debc85c29e675a1582", [
+      [ "None", "namespace_vertices_engine.html#ae6fb387a1748a2debc85c29e675a1582a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "Steam", "namespace_vertices_engine.html#ae6fb387a1748a2debc85c29e675a1582a4db4563826bad0eb2f60ee6e42d0ea4b", null ],
+      [ "ItchIO", "namespace_vertices_engine.html#ae6fb387a1748a2debc85c29e675a1582adaf2e41b36acfaabf5006c3c90617466", null ],
+      [ "Discord", "namespace_vertices_engine.html#ae6fb387a1748a2debc85c29e675a1582a8f5cc6430613f1c12f36965050bb7197", null ],
+      [ "GooglePlayStore", "namespace_vertices_engine.html#ae6fb387a1748a2debc85c29e675a1582a74bcbecbf9327ee88d00e18ed89bf952", null ],
+      [ "AmazonPlayStore", "namespace_vertices_engine.html#ae6fb387a1748a2debc85c29e675a1582a68dcbacc733c686c72eebf54fce111cb", null ],
+      [ "AppleAppStore", "namespace_vertices_engine.html#ae6fb387a1748a2debc85c29e675a1582a2cf6b5ffb0dace64495495e85a3031af", null ],
+      [ "NintendoSwitch", "namespace_vertices_engine.html#ae6fb387a1748a2debc85c29e675a1582a013ed2500604451a094b5aaf9ad2827c", null ]
+    ] ],
+    [ "vxSelectionState", "namespace_vertices_engine.html#a276fb06fea5939e424d14069177476ed", [
+      [ "None", "namespace_vertices_engine.html#a276fb06fea5939e424d14069177476eda6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "Hover", "namespace_vertices_engine.html#a276fb06fea5939e424d14069177476edaeee0168be69b854c20621fc6f01cc3fc", null ],
+      [ "Selected", "namespace_vertices_engine.html#a276fb06fea5939e424d14069177476eda91b442d385b54e1418d81adc34871053", null ]
+    ] ],
+    [ "vxStartGameMode", "namespace_vertices_engine.html#a42b8d3cb4121d9a9511af817bcff22c1", [
+      [ "Editor", "namespace_vertices_engine.html#a42b8d3cb4121d9a9511af817bcff22c1a344a7f427fb765610ef96eb7bce95257", null ],
+      [ "GamePlay", "namespace_vertices_engine.html#a42b8d3cb4121d9a9511af817bcff22c1acc804f6412d7f0b95961d7eee6e50619", null ]
+    ] ]
+];
