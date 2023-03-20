@@ -114,12 +114,13 @@ namespace VerticesEngine.UI.StartupScreen
                 content = new ContentManager(vxEngine.Game.Services, "Content");
 
             TitleFont = vxContentManager.Instance.Load<SpriteFont>("vxengine/fonts/font_splash_24");
-            SphereModel = vxContentManager.Instance.LoadMesh("vxengine/titleScreen/sphere/sphere");
+            SphereModel = vxContentManager.Instance.LoadMesh("vxengine/models/titleScreen/sphere/sphere");
 
-            Logo = vxContentManager.Instance.Load<Texture2D>("vxengine/titleScreen/logo/vrtx/vrtx_title" + (IsDarkStart ? "_dark" : ""));
-            EngineTitle = vxContentManager.Instance.Load<Texture2D>("vxengine/titleScreen/logo/vrtc/vrtc_title" + (IsDarkStart ? "_dark" : ""));
-            Splitter = vxContentManager.Instance.Load<Texture2D>("vxengine/titleScreen/logo/spliiter" + (IsDarkStart ? "_dark" : ""));
-            BuiltWithTexture = vxContentManager.Instance.Load<Texture2D>("vxengine/titleScreen/logo/vrtc/built_with" + (IsDarkStart ? "_dark" : ""));
+            
+            Logo = vxContentManager.Instance.Load<Texture2D>("vxengine/models/titleScreen/logo/vrtx/vrtx_title" + (IsDarkStart ? "_dark" : ""));
+            EngineTitle = vxContentManager.Instance.Load<Texture2D>("vxengine/models/titleScreen/logo/vrtc/vrtc_title" + (IsDarkStart ? "_dark" : ""));
+            Splitter = vxContentManager.Instance.Load<Texture2D>("vxengine/models/titleScreen/logo/spliiter" + (IsDarkStart ? "_dark" : ""));
+            BuiltWithTexture = vxContentManager.Instance.Load<Texture2D>("vxengine/models/titleScreen/logo/vrtc/built_with" + (IsDarkStart ? "_dark" : ""));
             
             try
             {
