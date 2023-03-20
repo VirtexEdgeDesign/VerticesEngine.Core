@@ -22,7 +22,10 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-        
+    
+    - name: Set Nuget Version
+      run: ci/set_version.sh ${GITHUB_RUN_NUMBER}
+      
     - name: Build Doxygen 
       uses: mattnotmitt/doxygen-action@v1.1.0
       with:
