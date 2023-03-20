@@ -1,0 +1,30 @@
+name: Nuget Package - DesktopGL
+
+on:
+  push:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '6.0.X'
+    - name: Install dependencies
+      run: dotnet restore src/desktop.gl/VerticesEngine.Core.Desktop.GL.csproj
+    
+    - name: Set Version
+      run: ci/set_version.sh ${GITHUB_RUN_NUMBER}
+
+    - name: Build Task
+      run: dotnet build --configuration Release --no-restore src/desktop.gl/VerticesEngine.Core.Desktop.GL.csproj
+            
+    - name: Upload to Nuget
+      run: dotnet nuget push -s https://api.nuget.org/v3/index.json -k ${{secrets.NUGET_API_KEY}} src/desktop.gl/bin/**/*.nupkg
