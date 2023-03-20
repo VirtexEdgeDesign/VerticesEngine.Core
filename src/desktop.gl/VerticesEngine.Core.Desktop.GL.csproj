@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+  <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>VerticesEngine</AssemblyName>
+    <Authors>Virtex Edge Design</Authors>
+    <Company>Virtex Edge Design</Company>
+    <Product>VerticesEngine.Core.Desktop.GL</Product>
+    <Description>The OpenGL port of the Cross Platform Vertices Engine.</Description>
+    <Configurations>Debug;Release</Configurations>
+    <RootNamespace>VerticesEngine.Core.Desktop.GL</RootNamespace>
+  </PropertyGroup>  
+  <PropertyGroup>
+  <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  <PackageId>VerticesEngine.Core.Desktop.GL</PackageId>
+  <Version>0.1.0</Version>
+  <PackageIcon>gl.png</PackageIcon>
+  <PackageIconUrl />
+  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  <RepositoryUrl>https://github.com/VirtexEdgeDesign/VerticesEngine.Core</RepositoryUrl>
+  <PackageProjectUrl>https://github.com/VirtexEdgeDesign/VerticesEngine.Core</PackageProjectUrl>
+  <PackageTags>MonoGame, Game Engine</PackageTags>
+</PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>VRTC_PLTFRM_GL</DefineConstants>
+    <OutputPath>bin/$(Configuration)</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>VRTC_PLTFRM_GL</DefineConstants>
+    <OutputPath>bin/$(Configuration)</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+ <ErrorOnDuplicatePublishOutputFiles>false</ErrorOnDuplicatePublishOutputFiles>
+</PropertyGroup>
+  <ItemGroup>
+    <Content Include="./ref/*">
+        <Pack>true</Pack>
+        <PackagePath>lib\$(TargetFramework)</PackagePath>
+    </Content>
+</ItemGroup>
+  <ItemGroup>
+    <None Remove="Entitlements.plist" />
+    <None Remove="Info.plist" />
+    <None Remove="VerticesEngine.Core.Shared.projitems" />
+    <None Include="..\..\img\nuget\gl.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Update="Facepunch.Steamworks.dll.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.1.303" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="5.0.1" />
+    <PackageReference Include="System.Management" Version="5.0.0" />
+    <PackageReference Include="VerticesEngine.Net.Lidgren.Desktop" Version="1.1.0" />
+    <PackageReference Include="VerticesEngine.Physics.Bepu" Version="1.0.0" />
+    <PackageReference Include="VerticesEngine.Physics.Farseer" Version="1.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="libopenal.1.dylib">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="libSDL2-2.0.0.dylib">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="steam_api.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="..\shared\VerticesEngine.Core.Shared.projitems" Label="Shared" />
+</Project>

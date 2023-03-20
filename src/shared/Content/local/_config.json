@@ -1,0 +1,40 @@
+{
+    "gameName": "vxLocKeys",
+    "nameSpace": "VerticesEngine",
+    "rawJsonInputPath": "C:\\Users\\robto\\Downloads",
+    "codeGenFilePath": "../../src\\VerticesEngine\\src.shared\\Localization",
+    "jsonOutputPath": "../../src\\VerticesEngine\\src.shared\\Content\\local",
+    "fontFileOutputPath": "../../src\\VerticesEngine\\src.shared\\Content\\Fonts",
+    "fontDefns": {
+      "en": {
+        "FontName": "Xirod"
+      },
+      "fr": {
+        "FontName": "Xirod"
+      },
+      "es": {
+        "FontName": "Xirod"
+      },
+      "de": {
+        "FontName": "Xirod"
+      },
+      "it": {
+        "FontName": "Xirod"
+      },
+      "pt": {
+        "FontName": "Xirod"
+      },
+      "ru": {
+        "FontName": "bicubik"
+      },
+      "ko": {
+        "FontName": "Noto Serif KR"
+      },
+      "ja": {
+        "FontName": "RocknRoll One"
+      },
+      "zh-CN": {
+        "FontName": "Xirod"
+      },
+    }
+  }

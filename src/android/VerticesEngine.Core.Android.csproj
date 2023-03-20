@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <PropertyGroup>
+   <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+</PropertyGroup> 
+   <PropertyGroup>
+      <XamarinAndroidSupportSkipVerifyVersions>true</XamarinAndroidSupportSkipVerifyVersions>
+      <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+      <AssemblyName>VerticesEngine</AssemblyName>
+    </PropertyGroup>
+  <Import Project="..\shared\VerticesEngine.Core.Shared.projitems" Label="Shared" />
+  <Import Project="..\..\..\VerticesEngine.Net.Lidgren\src.shared\Lidgren.Base.projitems" Label="Shared" />
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.Android" Version="3.8.1.303" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Plugin.InAppBilling" Version="5.6.1" />
+    <PackageReference Include="Plugin.PushNotification" Version="3.6.19" />
+    <PackageReference Include="VerticesEngine.Physics.Bepu" Version="1.0.0" />
+    <PackageReference Include="VerticesEngine.Physics.Farseer" Version="1.0.0" />
+    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.5.1.1" />
+    <PackageReference Include="Xamarin.GooglePlayServices.Ads" Version="121.2.0" />
+    <PackageReference Include="Xamarin.GooglePlayServices.Ads.Lite" Version="121.2.0" />
+    <PackageReference Include="Xamarin.GooglePlayServices.Auth" Version="120.3.0" />
+    <PackageReference Include="Xamarin.GooglePlayServices.Base" Version="118.1.0" />
+    <PackageReference Include="Xamarin.GooglePlayServices.Games" Version="122.0.1.2" />
+    <PackageReference Include="Xamarin.GooglePlayServices.Identity" Version="118.0.1.2" />
+  </ItemGroup>
+</Project>
