@@ -453,8 +453,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)vxBaseScene.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)vxGameObject.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)vxEngine.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)vxEngine.Debug.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)vxEngine.Android.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)vxGame.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)vxGameConfig.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Types\Enums.cs" />
