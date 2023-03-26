@@ -32,7 +32,6 @@ var hierarchy =
     ] ],
     [ "VerticesEngine.Controllers.CharacterControllerInput", "class_vertices_engine_1_1_controllers_1_1_character_controller_input.html", null ],
     [ "VerticesEngine.Core.Android.Class1", "class_vertices_engine_1_1_core_1_1_android_1_1_class1.html", null ],
-    [ "VerticesEngine.Lib.iOS.Class1", "class_vertices_engine_1_1_lib_1_1i_o_s_1_1_class1.html", null ],
     [ "VerticesEngine.Droid.Resource.Color", "class_vertices_engine_1_1_droid_1_1_resource_1_1_color.html", null ],
     [ "VerticesEngine.Diagnostics.CommandInfo", "class_vertices_engine_1_1_diagnostics_1_1_command_info.html", null ],
     [ "VerticesEngine.UI.Controls.vxNotificationManager.Configs", "class_vertices_engine_1_1_u_i_1_1_controls_1_1vx_notification_manager_1_1_configs.html", null ],

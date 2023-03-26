@@ -194,11 +194,6 @@ var annotated_dup =
         [ "vxKeyBindings", "class_vertices_engine_1_1_input_1_1vx_key_bindings.html", "class_vertices_engine_1_1_input_1_1vx_key_bindings" ],
         [ "vxPlayerInputComponent", "class_vertices_engine_1_1_input_1_1vx_player_input_component.html", "class_vertices_engine_1_1_input_1_1vx_player_input_component" ]
       ] ],
-      [ "Lib", "namespace_vertices_engine_1_1_lib.html", [
-        [ "iOS", "namespace_vertices_engine_1_1_lib_1_1i_o_s.html", [
-          [ "Class1", "class_vertices_engine_1_1_lib_1_1i_o_s_1_1_class1.html", null ]
-        ] ]
-      ] ],
       [ "Localization", "namespace_vertices_engine_1_1_localization.html", [
         [ "UI", "namespace_vertices_engine_1_1_localization_1_1_u_i.html", [
           [ "vxLocalizationSelectMsgBox", "class_vertices_engine_1_1_localization_1_1_u_i_1_1vx_localization_select_msg_box.html", "class_vertices_engine_1_1_localization_1_1_u_i_1_1vx_localization_select_msg_box" ],

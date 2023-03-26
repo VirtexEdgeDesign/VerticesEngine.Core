@@ -15,7 +15,6 @@ var namespace_vertices_engine =
     [ "Graphics", "namespace_vertices_engine_1_1_graphics.html", "namespace_vertices_engine_1_1_graphics" ],
     [ "InitSteps", "namespace_vertices_engine_1_1_init_steps.html", "namespace_vertices_engine_1_1_init_steps" ],
     [ "Input", "namespace_vertices_engine_1_1_input.html", "namespace_vertices_engine_1_1_input" ],
-    [ "Lib", "namespace_vertices_engine_1_1_lib.html", "namespace_vertices_engine_1_1_lib" ],
     [ "Localization", "namespace_vertices_engine_1_1_localization.html", "namespace_vertices_engine_1_1_localization" ],
     [ "Mathematics", "namespace_vertices_engine_1_1_mathematics.html", "namespace_vertices_engine_1_1_mathematics" ],
     [ "Monetization", "namespace_vertices_engine_1_1_monetization.html", "namespace_vertices_engine_1_1_monetization" ],

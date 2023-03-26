@@ -32,7 +32,7 @@ var searchData=
   ['circulareasein_29',['CircularEaseIn',['../class_vertices_engine_1_1vx_math_helper_1_1_easing_functions.html#aa764e9cf4ecd4a28331f0e18e6a5d3c9',1,'VerticesEngine::vxMathHelper::EasingFunctions']]],
   ['circulareaseinout_30',['CircularEaseInOut',['../class_vertices_engine_1_1vx_math_helper_1_1_easing_functions.html#a3aaef856f4104238de3c9b96d8f9ff74',1,'VerticesEngine::vxMathHelper::EasingFunctions']]],
   ['circulareaseout_31',['CircularEaseOut',['../class_vertices_engine_1_1vx_math_helper_1_1_easing_functions.html#aaa105e668130a57913c74717d00a5c32',1,'VerticesEngine::vxMathHelper::EasingFunctions']]],
-  ['class1_32',['Class1',['../class_vertices_engine_1_1_core_1_1_android_1_1_class1.html',1,'VerticesEngine.Core.Android.Class1'],['../class_vertices_engine_1_1_lib_1_1i_o_s_1_1_class1.html',1,'VerticesEngine.Lib.iOS.Class1']]],
+  ['class1_32',['Class1',['../class_vertices_engine_1_1_core_1_1_android_1_1_class1.html',1,'VerticesEngine::Core::Android']]],
   ['clear_33',['Clear',['../class_vertices_engine_1_1_u_i_1_1_controls_1_1vx_scroll_panel.html#add7f4ece81a03da4f5c5d404c3aeac8d',1,'VerticesEngine::UI::Controls::vxScrollPanel']]],
   ['clearingameconsole_34',['ClearInGameConsole',['../class_vertices_engine_1_1vx_console.html#addeaf022ff2a40d5d1cc6142914c0b8f',1,'VerticesEngine::vxConsole']]],
   ['clearstatus_35',['ClearStatus',['../interface_vertices_engine_1_1_profile_1_1vx_i_player_profile.html#a4bec49a549e1f169f1a199724b0504ad',1,'VerticesEngine.Profile.vxIPlayerProfile.ClearStatus()'],['../class_vertices_engine_1_1_profile_1_1vx_player_profile_generic_wrapper.html#a25f4438fa805474144d1b0d086ee4efc',1,'VerticesEngine.Profile.vxPlayerProfileGenericWrapper.ClearStatus()']]],
